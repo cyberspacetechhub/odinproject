@@ -20,7 +20,7 @@ const Login = () => {
         <div className=" mt-8 sm:mx-auto sm:w-full sm:max-w-md">
             <div className=" bg-white dark:bg-gray-800 dark:border dark:border-gray-700 shadow rounded-lg">
                 <div className=" p-8">
-                    <form action="" className="">
+                    <form action="/signuppage" className="">
                         <input type="hidden" autoComplete='off' />
                         <div className=" space-y-6">
 

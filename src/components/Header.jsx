@@ -13,6 +13,7 @@ import ForumOutlinedIcon from '@mui/icons-material/ForumOutlined';
 import RocketLaunchOutlinedIcon from '@mui/icons-material/RocketLaunchOutlined';
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
+import CodeCraft1 from '../assets/image/CCHlogo.svg'
 
 
 const Header = () => {
@@ -25,7 +26,7 @@ const Header = () => {
     // console.log(setShowDiv);
   };
 
-  const [isDarkMode, SetisDarkMode] = useState(false)
+  const [isDarkMode, SetisDarkMode] = useState(true)
 
     useEffect(() => {
         document.documentElement.classList.toggle('dark', isDarkMode)
@@ -36,6 +37,8 @@ const Header = () => {
         SetisDarkMode((prevMode) => !prevMode);
         
     }
+
+    
 
     return ( 
     <>
@@ -55,9 +58,9 @@ const Header = () => {
 
             <div className="containernav flex-1 h-0 pt-3 pb-4 overflow-y-auto">
                 <div className=" flex-shrink-0 flex items-center px-4">
-                    <Link to="/" className=' flex items-center gap-6 dark:text-gray-300'>
-                        <img className='' src={Logo2} alt="" />
-                        <h1>The Odin Project</h1>
+                    <Link to="/" className=' flex items-center gap-3 dark:text-gray-300'>
+                        <img className=' w-auto h-12' src={CodeCraft1} alt="" />
+                        <h1 className=" font-medium text-lg uppercase"> The CodeCraftHub</h1>
                     </Link>
                 </div>
 
@@ -101,16 +104,16 @@ const Header = () => {
  */}
     <div className="">
         
-        <header className=" dark:bg-gray-900 border-gray-200 dark:border-none bg-white border-b">
+        <header className=" dark:bg-gray-900 border-gray-200 dark:border-gray-800 bg-white border-b">
             <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
                 <div className=" flex justify-between">
                     <div className=" flex">
                         <div className=" flex-shrink-0 flex gap-3 items-center">
                             <Link className="" to="/">
-                                <img  alt="Odin Logo" className=" block  h-12 w-auto" src={logo} />
+                                <img  alt="CodeCraftHub" className=" block  h-12 w-auto" src={CodeCraft1} />
                             </Link>
                             <Link to="/">
-                                <h2 className=" font-medium text-xl uppercase max-lg:hidden dark:text-gray-300 ">The Odin Project</h2>
+                                <h2 className=" font-medium text-xl uppercase max-lg:hidden dark:text-gray-300 "> The CodeCraftHub</h2>
                             </Link>
                         </div>
                     </div>

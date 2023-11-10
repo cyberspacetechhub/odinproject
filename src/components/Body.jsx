@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import BgImg from '../assets/image/odin-fst-bg-img.svg'
 import Page1 from '../assets/image/page1.svg'
 import Page2 from '../assets/image/page2.svg'
-import Page3 from '../assets/image/page2.svg'
+import Page3 from '../assets/image/page3.svg'
 import Post1 from '../assets/image/post1.svg'
 import Post2 from '../assets/image/post2.svg'
 import Post3 from '../assets/image/post3.svg'
@@ -179,7 +179,7 @@ const Body = () => {
                                 </p>
                                 <div className=" text-xl dark:text-gray-300">
                                 <p>
-                                    Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a year of working through the program, I was offered a job as a front...
+                                    Before I started CodeCraftHub I had literally ZERO programming experience. After almost exactly a year of working through the program, I was offered a job as a front...
                                 </p>
                             </div>
                             </div>
@@ -215,7 +215,7 @@ const Body = () => {
                                 </p>
                                 <div className=" text-xl dark:text-gray-300">
                                 <p>
-                                    Before I found The Odin Project I had very little direction with my learning, jumping from topic to topic then trying to piece things together as I went. Having this...
+                                    Before I found CodeCraftHub I had very little direction with my learning, jumping from topic to topic then trying to piece things together as I went. Having this...
                                 </p>
                             </div>
                             </div>

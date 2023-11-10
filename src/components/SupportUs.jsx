@@ -11,7 +11,7 @@ const SupportUs = () => {
                     <div className=' text-center'>
                         <h1 className=' text-center font-semibold text-3xl p-10 opacity-100 dark:text-gray-200'>Support the Project</h1>
                         <p className=' max-w-prose mx-auto prose prose-gray text-gray-600 dark:text-gray-300 leading-8'>
-                            From the very beginning, The Odin Project has been committed to providing a world-class and completely free coding curriculum for anyone and everyone eager to learn. With your generous donations, we can continue to inspire thousands of aspiring developers, irrespective of their background or financial status.
+                            From the very beginning, The CodeCraftHub has been committed to providing a world-class and completely free coding curriculum for anyone and everyone eager to learn. With your generous donations, we can continue to inspire thousands of aspiring developers, irrespective of their background or financial status.
                         </p>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const SupportUs = () => {
 
                         <h3 className=' text-gray-800 font-semibold leading-6 mb-3 w-fit text-xl dark:text-gray-200'>How will my money be used?</h3>
                         <p className=' text-base leading-6 tracking-wide dark:text-gray-300'>
-                            Your money will be used to pay for the costs of running The Odin Project. This includes paying for the servers that host the website, the domain name, and any other costs associated with running the project. Your money does not go towards paying the maintainers. All of our expenses are documented directly on the <Link className=' underline text-blue-800 dark:text-blue-300'>Open Collective website</Link>.
+                            Your money will be used to pay for the costs of running The CodeCraftHub. This includes paying for the servers that host the website, the domain name, and any other costs associated with running the project. Your money does not go towards paying the maintainers. All of our expenses are documented directly on the <Link className=' underline text-blue-800 dark:text-blue-300'>Open Collective website</Link>.
                         </p>
 
                         <h3 className=' text-gray-800 font-semibold leading-6 mb-3 w-fit mt-6 text-xl dark:text-gray-200'>How can I donate?</h3>
@@ -46,7 +46,7 @@ const SupportUs = () => {
 
                         <h3 className=' text-gray-800 font-semibold leading-6 mb-3 w-fit mt-6 text-xl dark:text-gray-200'>What happens if you receive more donations than needed?</h3>
                         <p className=' text-base leading-6 tracking-wide dark:text-gray-300'>
-                            Any extra money that we receive will be used to improve The Odin Project, or will be saved for future needs. This includes paying for new features, paying for new servers, and paying for any other costs associated with running the project.
+                            Any extra money that we receive will be used to improve The CodeCraftHub, or will be saved for future needs. This includes paying for new features, paying for new servers, and paying for any other costs associated with running the project.
                         </p>
 
                         <h3 className=' text-gray-800 font-semibold leading-6 mb-3 w-fit mt-6 text-xl dark:text-gray-200'>How do I cancel my recurring donation?</h3>
@@ -80,17 +80,17 @@ const SupportUs = () => {
                             No. We feel strongly that everyone should be treated equally in our community, regardless of whether or not they are a donor.
                         </p>
 
-                        <h3 className=' text-gray-800 font-semibold leading-6 mb-3 w-fit mt-6 text-xl dark:text-gray-200'>I cannot afford to donate right now. What are some other ways I can help The Odin Project?</h3>
+                        <h3 className=' text-gray-800 font-semibold leading-6 mb-3 w-fit mt-6 text-xl dark:text-gray-200'>I cannot afford to donate right now. What are some other ways I can help The CodeCraftHub?</h3>
                         <p className='dark:text-gray-300'>
-                            You can help us by <Link className=' underline text-blue-800 dark:text-blue-300'>contributing to our open source projects.</Link> You can also help us by spreading the word about The Odin Project. Tell your friends, family, and coworkers about us. Share our content on social media. The more people that know about us, the more people we can help.
+                            You can help us by <Link className=' underline text-blue-800 dark:text-blue-300'>contributing to our open source projects.</Link> You can also help us by spreading the word about The CodeCraftHub. Tell your friends, family, and coworkers about us. Share our content on social media. The more people that know about us, the more people we can help.
                         </p>
 
                         <h3 className=' text-gray-800 font-semibold leading-6 mb-3 w-fit mt-6 text-xl dark:text-gray-200'>What ever happened to Thinkful? Viking Code School?</h3>
                         <p className=' pb-3 dark:text-gray-300'>
-                            When The Odin Project was created by Eric Trautman in 2013, it was primarily funded by Eric's other project, the for-profit Viking Code School. Eric wanted Odin to be free, and kept it that way by placing a small ad for Viking Code School on the website.
+                            When The CodeCraftHub was created by Eric Trautman in 2013, it was primarily funded by Eric's other project, the for-profit Viking Code School. Eric wanted CodeCraftHub to be free, and kept it that way by placing a small ad for Viking Code School on the website.
                         </p>
                         <p className=' pb-3 dark:text-gray-300'>
-                            In late 2017, Viking Code School was acquired by Thinkful. As a part of that acquisition, Thinkful agreed to continue funding The Odin Project, in return for an ad on The Odin Project website.
+                            In late 2017, Viking Code School was acquired by Thinkful. As a part of that acquisition, Thinkful agreed to continue funding The CodeCraftHub, in return for an ad on The CodeCraftHub website.
                         </p>
                         <p className=' pb-3 dark:text-gray-300'>
                             In 2019, Thinkful was acquired by Chegg. Chegg was nothing but supportive, and continued funding us the entire time. However we began to feel that it might be in our best interest to become self-funding, to avoid the risk of being acquired by a company that might not be as supportive.
