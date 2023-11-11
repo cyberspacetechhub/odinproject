@@ -124,7 +124,7 @@ const Start = () => {
                             <Link className=' grow py-3'>
                                 <div className=" flex items-center gap-3">
                                     <ImportContactsTwoToneIcon className=' w-6 h-6 dark:text-gray-500 text-gray-400 group-hover:text-gray-500 dark:group-hover:text-gray-400 shrink-0' />
-                                    <p className=' text-gray-800 dark:text-gray-300'>Join the Odin Community</p>
+                                    <p className=' text-gray-800 dark:text-gray-300'>Join the CodeCraftHub Community</p>
                                 </div>
                             </Link>
                             <turbo-frame>
