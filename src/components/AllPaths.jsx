@@ -22,7 +22,7 @@ const AllPaths = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className=" border py-3 rounded-lg bg-gray-700 dark:border-none text-gray-100 space-x-6 justify-center hidden md:flex">
+                        <div className=" border py-3 rounded-lg bg-gray-700 dark:border-none text-gray-100 space-x-6 justify-center  md:flex">
                             <form action="">
                                 <button className=' button--dark px-12'>Explore</button>
                             </form>
@@ -49,7 +49,7 @@ const AllPaths = () => {
       </div>
 
         <div className=" flex gap-x-10 justify-center gap-y-6 flex-col pb-12 md:flex-row max-lg:px-7 max-sm:p-4">
-            <div className=" w-1/3 bg-white dark:bg-gray-800 shadow rounded-lg flex flex-col max-lg:w-1/2  max-sm:w-full">
+            <div className=" w-1/3 bg-white dark:bg-gray-800 shadow rounded-lg flex flex-col max-xl:w-1/2 max-lg:w-full  max-sm:w-full">
                 <div className=" p-8 pb-0 flex flex-col justify-between items-center">
                     <Link className=' p-2 rounded-full'>
                         <img className=' w-24 h-24' src={Path2img} alt="" />
@@ -76,7 +76,7 @@ const AllPaths = () => {
                 </div>
             </div>
 
-            <div className=" bg-white dark:bg-gray-800 w-1/3 shadow rounded-lg flex flex-col max-xlg:w-1/2 max-lg:w-full max-sm:w-full">
+            <div className=" bg-white dark:bg-gray-800 w-1/3 shadow rounded-lg flex flex-col max-xl:w-1/2 max-lg:w-full max-sm:w-full">
                 <div className=" p-8 pb-0 flex flex-col justify-between items-center">
                     <Link className=' p-2 rounded-full'>
                         <img className=' w-24 h-24' src={Path3img} alt="" />
